@@ -541,7 +541,7 @@ body {
 
 .footer {
   padding: 4rem 2rem;
-  background-image: url("/images/Group\ 122.png");   
+  background-image: url("../images/Group\ 122.png");   
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat; }
