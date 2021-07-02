@@ -38,13 +38,16 @@
 }
 
 .paymentPage button {
-  font-size: 16px;
   padding: 13px 120px;
   background-color: #d2492f;
   border: none;
   border-radius: 10px;
-  color: #000;
   margin: 50px 0px 20px 0px;
+}
+.paymentPage button a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #000;
 }
 
 .hidePaymentStatus {
@@ -72,12 +75,12 @@
     font-size: 20px;
   }
   .paymentPage button {
-    font-size: 14px;
     padding: 13px 100px;
   }
-}
-footer {
-  color: white;
+  .paymentPage button a {
+    font-size: 14px;
+  }
+ 
 }
 /**************   Payment Page CSS Ends Here    *******************/
 
