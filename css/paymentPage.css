@@ -38,13 +38,16 @@
 }
 
 .paymentPage button {
-  font-size: 16px;
   padding: 13px 120px;
   background-color: #d2492f;
   border: none;
   border-radius: 10px;
-  color: #000;
   margin: 50px 0px 20px 0px;
+}
+.paymentPage button a {
+  font-size: 16px;
+  color: #000;
+  text-decoration: none;
 }
 
 .hidePaymentStatus {
@@ -59,7 +62,7 @@
   }
   .paymentPage h2 {
     font-size: 40px;
-    top: 25%;
+    top: 23%;
   }
   .paymentPage p {
     margin-top: 30px;
@@ -71,8 +74,10 @@
     font-size: 20px;
   }
   .paymentPage button {
-    font-size: 14px;
     padding: 13px 100px;
+  }
+  .paymentPage button a {
+    font-size: 14px;
   }
 }
 footer {
@@ -541,7 +546,7 @@ body {
 
 .footer {
   padding: 4rem 2rem;
-  background-image: url("/images/Group\ 122.png");   
+  background-image: url("../images/Group\ 122.png");   
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat; }
