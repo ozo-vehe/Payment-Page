@@ -20,7 +20,6 @@
 .paymentPage p {
   font-size: 45px;
   font-weight: 700;
-  margin-top: 20px;
   text-transform: capitalize;
 }
 .paymentPage p span {
@@ -39,16 +38,13 @@
 }
 
 .paymentPage button {
+  font-size: 16px;
   padding: 13px 120px;
   background-color: #d2492f;
   border: none;
   border-radius: 10px;
-  margin: 50px 0px 20px 0px;
-}
-.paymentPage button a {
-  text-decoration: none;
-  font-size: 16px;
   color: #000;
+  margin: 50px 0px 20px 0px;
 }
 
 .hidePaymentStatus {
@@ -61,26 +57,26 @@
   .paymentPage .paymentStatus {
     width: 100%;
   }
-  h2 {
-    font-size: 40px;
-    top: 23%;
+  .paymentPage h2 {
+    font-size: 50px;
+    top: 27%;
   }
-  p {
+  .paymentPage p {
     margin-top: 30px;
     font-size: 30px;
     font-weight: 700;
     text-transform: capitalize;
   }
-  p span {
+  .paymentPage p span {
     font-size: 20px;
   }
   .paymentPage button {
+    font-size: 14px;
     padding: 13px 100px;
   }
-  .paymentPage button a {
-    font-size: 14px;
-  }
- 
+}
+footer {
+  color: white;
 }
 /**************   Payment Page CSS Ends Here    *******************/
 
@@ -545,7 +541,7 @@ body {
 
 .footer {
   padding: 4rem 2rem;
-  background-image: url("../images/Group\ 122.png");   
+  background-image: url("/images/Group\ 122.png");   
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat; }
@@ -587,4 +583,3 @@ body {
     text-align: center;
     margin-top: 5rem;
     margin-bottom: 3rem; }
-  
